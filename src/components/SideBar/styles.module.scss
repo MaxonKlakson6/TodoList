@@ -1,0 +1,30 @@
+@import '../../fonts/fonts';
+
+.wrapper {
+  height: 100vh;
+
+  padding: 107px 95px 0 144px;
+  border-right: 1px solid #D8D8D8;
+
+  font-size: 26px;
+  font-family: SFPro;
+
+  .categoriesHolder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .category {
+      font-family: SFPro;
+      font-size: 26px;
+      font-weight: 400;
+    }
+  }
+
+  .addCategory {
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: SFPro;
+    font-weight: 400;
+  }
+}

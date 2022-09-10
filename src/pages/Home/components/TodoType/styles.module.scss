@@ -1,0 +1,9 @@
+@import '../../../../helpers/mixins/todoMixin';
+
+.todoHolder {
+  @include todo-mixin;
+}
+
+.todoText {
+  flex-grow: 1;
+}

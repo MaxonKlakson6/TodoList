@@ -1,0 +1,12 @@
+@import '../../fonts/fonts';
+@import '../../helpers/mixins/todoMixin';
+
+.wrapper {
+  @include todo-mixin;
+  font-size: 22px;
+  border: 1px solid #E2E8F0;
+
+  .subtaskText {
+    flex-grow: 1;
+  }
+}

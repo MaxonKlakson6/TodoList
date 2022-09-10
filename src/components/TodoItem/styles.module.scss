@@ -1,0 +1,37 @@
+@import '../../helpers/mixins/todoMixin';
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.todoHolder {
+  @include todo-mixin;
+  padding: 0 0 0 20px;
+  font-size: 24px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.todoWithoutSubtasks {
+  @include todo-mixin;
+  margin-top: 20px;
+  font-size: 22px;
+  border: 1px solid #E2E8F0;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.todoText {
+  max-width: 775px;
+  flex-grow: 1;
+}
+
+.subtasksList {
+  margin-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

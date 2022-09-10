@@ -1,0 +1,10 @@
+@import '../../fonts/fonts';
+
+@mixin todo-mixin {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-family: SFPro;
+  font-size: 26px;
+}
